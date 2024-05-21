@@ -1,1 +1,3 @@
 # ml_ops_HW_Week_1
+
+This Jupyter notebook code demonstrates a machine learning workflow for predicting the duration of taxi trips using the New York City Green Taxi dataset. The code begins by importing necessary libraries, reading data from parquet files, and preprocessing the data to calculate trip durations in minutes. Categorical and numerical features are vectorized, and a linear regression model is trained and evaluated on the training set, followed by predictions on a validation set. The notebook also includes visualization of predictions vs. actual values, and saves the trained model using pickle. Additionally, it tests Lasso regression as an alternative model and evaluates its performance.
